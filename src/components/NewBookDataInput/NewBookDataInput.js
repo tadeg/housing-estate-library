@@ -27,7 +27,7 @@ const NewBookDataInput = (props) => {
     );
 }
 
-NewBookDataInput.propTyes = {
+NewBookDataInput.propTypes = {
     label: PropTypes.string,
     name: PropTypes.string,
     type: PropTypes.string,
