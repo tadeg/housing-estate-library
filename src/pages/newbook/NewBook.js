@@ -232,7 +232,7 @@ coverOptions = [
                             <Col xs={12}>
                                 <h1>The Housing Estate Library "Reader"</h1>
                                 <h1>Welcome!</h1>
-                                <h2>Add the new book to the library:</h2>
+                                <h2>Add new book to the library:</h2>
                                 <h3>Enter book data:</h3>
                             </Col>
                         </Row>
