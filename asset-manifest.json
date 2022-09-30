@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/housing-estate-library/static/css/main.e0ce7255.css",
-    "main.js": "/housing-estate-library/static/js/main.c5bf31bd.js",
+    "main.js": "/housing-estate-library/static/js/main.0c3d96b8.js",
     "static/js/787.2ba9b97b.chunk.js": "/housing-estate-library/static/js/787.2ba9b97b.chunk.js",
     "index.html": "/housing-estate-library/index.html",
     "main.e0ce7255.css.map": "/housing-estate-library/static/css/main.e0ce7255.css.map",
-    "main.c5bf31bd.js.map": "/housing-estate-library/static/js/main.c5bf31bd.js.map",
+    "main.0c3d96b8.js.map": "/housing-estate-library/static/js/main.0c3d96b8.js.map",
     "787.2ba9b97b.chunk.js.map": "/housing-estate-library/static/js/787.2ba9b97b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e0ce7255.css",
-    "static/js/main.c5bf31bd.js"
+    "static/js/main.0c3d96b8.js"
   ]
 }
