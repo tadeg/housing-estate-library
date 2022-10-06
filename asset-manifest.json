@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/housing-estate-library/static/css/main.e0ce7255.css",
-    "main.js": "/housing-estate-library/static/js/main.1f4c91ed.js",
+    "main.css": "/housing-estate-library/static/css/main.91aac8f1.css",
+    "main.js": "/housing-estate-library/static/js/main.4cc8a9a6.js",
     "static/js/787.2ba9b97b.chunk.js": "/housing-estate-library/static/js/787.2ba9b97b.chunk.js",
+    "static/media/main-bg.jpg": "/housing-estate-library/static/media/main-bg.d11c4fe80f4786e1405c.jpg",
     "index.html": "/housing-estate-library/index.html",
-    "main.e0ce7255.css.map": "/housing-estate-library/static/css/main.e0ce7255.css.map",
-    "main.1f4c91ed.js.map": "/housing-estate-library/static/js/main.1f4c91ed.js.map",
+    "main.91aac8f1.css.map": "/housing-estate-library/static/css/main.91aac8f1.css.map",
+    "main.4cc8a9a6.js.map": "/housing-estate-library/static/js/main.4cc8a9a6.js.map",
     "787.2ba9b97b.chunk.js.map": "/housing-estate-library/static/js/787.2ba9b97b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e0ce7255.css",
-    "static/js/main.1f4c91ed.js"
+    "static/css/main.91aac8f1.css",
+    "static/js/main.4cc8a9a6.js"
   ]
 }
