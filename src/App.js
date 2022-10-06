@@ -1,12 +1,19 @@
-import './App.css';
-import NewBook from './pages/newbook/NewBook'
+import React, { Component } from "react";
+import './css/App.css';
+import Navigator from "./components/Navigator/Navigator"
 
-function App() {
+class App extends Component {
+
+  render() {
+
+
   return (
     <div className="App">
-      <NewBook />
+      {/* <h1>Welcome</h1> */}
+      <Navigator />
     </div>
   );
+}
 }
 
 export default App;

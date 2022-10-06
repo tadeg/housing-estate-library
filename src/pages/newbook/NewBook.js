@@ -3,7 +3,8 @@ import { Row, Col, Container } from "react-bootstrap";
 import NewBookDataInput from "../../components/NewBookDataInput/NewBookDataInput";
 import NewBookDataSelect from '../../components/NewBookDataSelect/NewBookDataSelect';
 import NewBookDataTextArea from '../../components/NewBookDataTextArea/NewBookDataTextArea';
-
+import BurgerMenuHome from '../../components/BurgerMenuHome/BurgerMenuHome';
+import '../../css/NewBook.css';
 
 
 class NewBook extends Component {
@@ -225,6 +226,7 @@ coverOptions = [
             <Container> 
 
                 <div className="wrapper">
+                <BurgerMenuHome />
                 <form onSubmit={this.submitHandler}>
 
                     <div className="form-group">

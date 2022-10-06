@@ -1,0 +1,127 @@
+/* -------- Burger Menu Icons --------*/
+
+.burger {
+    position: absolute;
+    top: 1vh;
+    left: 4vw;
+    font-size: 4rem;
+    line-height: 12vh;
+    -webkit-transition: .3s linear;
+    transition: .3s linear;
+    z-index: 1;
+    color: #fff;
+    color: rgb(201, 198, 198);
+}
+
+.burger:hover {
+    cursor: pointer;
+    color: #e27215;
+    /* color: limegreen; */
+}
+
+
+div i.fas {
+    display: none;
+}
+
+
+div i.fas.show {
+    display: block;
+    line-height: 12vh;
+}
+
+
+
+
+
+/* -------- Burger Menu Aside --------*/
+
+.formenu ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 2vh; */
+}
+
+.formenu li.menuitem {
+    flex-basis: 25%;
+    flex-shrink: 1;
+    flex-grow: 0;
+}
+
+.formenu a {
+    display: block;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-decoration: none;
+    text-transform: none;
+    text-align: left;
+    padding: 20px 40px;
+    padding-left: 40px;
+}
+
+.formenu a:hover {
+    background-color: #222;
+    font-size: 30px;
+    color: lawngreen;
+    color: #e27215;
+}
+
+
+/* break points for mobile */
+@media (min-width: 375px) {}
+
+@media (min-width: 768px) {
+
+    .burger {
+        font-size: 40px;
+    }
+
+
+    .formenu a {
+        font-size: 20px;
+    }
+}
+
+/* break points for desktop  */
+@media (min-width: 1024px) {
+
+    .burger {
+        font-size: 40px;
+    }
+}
+
+/* -------- aside - menu spod burger'a -------- */
+
+aside.formenu {
+    position: absolute;
+    top: 12vh;
+    left: -350px;
+    width: 350px;
+    /* min-height: 30%; */
+    /* background-color: #000; */
+    background-color: #333;
+    opacity: .9;
+    transition: .3s linear;
+    display: none;
+    z-index: 10;
+}
+
+div .fas {
+    display: none;
+}
+
+span .fas {
+    display: inline-block;
+}
+
+i.show {
+    display: block;
+    line-height: 12vh;
+}
+
+aside.show {
+    display: block;
+    left: 0;
+}
