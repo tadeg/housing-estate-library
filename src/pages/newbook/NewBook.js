@@ -232,9 +232,9 @@ coverOptions = [
                     <div className="form-group">
                         <Row>
                             <Col xs={12}>
-                                <h1>The Housing Estate Library "Reader"</h1>
-                                <h1>Welcome!</h1>
-                                <h2>Add new book to the library:</h2>
+                                <h1 className="name-welcome">The Housing Estate Library "Reader"</h1>
+                                <h1 className="name-welcome">Welcome!</h1>
+                                <h2 className="name-welcome">Add new book to the library:</h2>
                                 <h3>Enter book data:</h3>
                             </Col>
                         </Row>
