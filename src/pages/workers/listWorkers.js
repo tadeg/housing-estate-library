@@ -1,12 +1,18 @@
 import React, { Component } from "react";
 import { Row, Col, Container } from "react-bootstrap";
 import { connect } from "react-redux";
+import { removeWorker } from "../../actions/workerActions";
 
 
 class ListWorkers extends Component {
     constructor(props) {
         super(props);
     }
+
+
+    handleRemove = id => {
+        this.props.remove(id);
+        };
 
 
     render() {
@@ -26,6 +32,17 @@ class ListWorkers extends Component {
 
                                 </div>
                             </div>
+
+                            <p className="card-text">
+                                <button
+                                    type="button"
+                                    className="btn btn danger"
+                                    onClick={() => this.handleRemove(worker.id)}
+                                >
+                                    Delete
+                                </button>
+                            </p>
+
                         </Col>
                     ))}
                 </Row>
@@ -41,6 +58,14 @@ class ListWorkers extends Component {
         };
     };
 
+    const mapDispatchToProps = dispatch => {
+        return {
+            remove: id => {
+                dispatch(removeWorker(id))
+            }
+        };
+    };
+
     
-    export default connect(mapStateToProps)(ListWorkers);
+    export default connect(mapStateToProps, mapDispatchToProps)(ListWorkers);
 
