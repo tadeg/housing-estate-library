@@ -45,6 +45,7 @@ render() {
         return (
             <Container>
             <BurgerMenuHome />
+            <h3>Data from API</h3>  
                 <Row>
                     {this.state.users.map(user => (
                         <Col md={4} key={user.id}>

@@ -5,6 +5,7 @@ import NewBook from '../../pages/newbook/NewBook';
 import NewReaderFormik from '../../pages/newreaderformik/NewReaderFormik';
 import Readers from '../../pages/readers/Readers';
 import AuxiliaryForRedux from "../AuxiliaryForRedux/AuxiliaryForRedux";
+import AuxiliaryForReduxThunk from "../AuxiliaryForReduxThunk/AuxiliaryForReduxThunk";
 
 
 
@@ -21,6 +22,7 @@ const Navigator = () => {
           <Route path='/newreader' element={<NewReaderFormik />} />
           <Route path='/readers' element={<Readers />} />
           <Route path='/workers' element={<AuxiliaryForRedux />} />
+          <Route path='/followers' element={<AuxiliaryForReduxThunk />} />
           
         </Routes>
     </Router>

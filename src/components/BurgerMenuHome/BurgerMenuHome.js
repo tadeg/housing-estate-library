@@ -63,6 +63,8 @@ constructor(props) {
                 <li className="menuitem"><Link to='/newreader'>Admin panel - Add new reader - using Formik, Yup</Link></li>
                 <li className="menuitem"><Link to='/readers'>Admin panel - Display readers - get from API</Link></li>
                 <li className="menuitem"><Link to='/workers'>Admin panel - Add/delete/display workers - using Redux</Link></li>
+                <li className="menuitem"><Link to='/followers'>Admin panel - Display followers - get from API to Redux store - using Redux-thunk</Link></li>
+
             </ul>
         </aside>
 
