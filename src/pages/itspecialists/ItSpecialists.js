@@ -28,19 +28,14 @@ const ItSpecialists = () => {
     }, []);
     
 
-    // return (
-    //     <div>
-    //         <BurgerMenuHome />
-    //         <h3>Data from API - func comp - using hooks, async</h3> 
-    //     </div>
-    // )
+    let dispContent = null;
 
     if(error) {
-        return<div><BurgerMenuHome />Error: {error.message}</div>;
+        dispContent = <div>Error: {error.message}</div>;
     } else if (!isLoaded) {
-        return <div><BurgerMenuHome />Loading...</div>;
+        dispContent = <div>Loading...</div>;
     } else {
-        return itSpecialists.map(itSpecialist => (
+        dispContent = itSpecialists.map(itSpecialist => (
                <div key={itSpecialist.id}>
                     <p><strong>{itSpecialist.first_name}</strong></p>
                     <p>{itSpecialist.email}</p>
@@ -48,6 +43,16 @@ const ItSpecialists = () => {
                </div> 
                ));
     }
+
+    return (
+        <div>
+            <BurgerMenuHome />
+            <br /><br /><br />
+            <h3>Data from API - using hooks, async</h3>  
+            {dispContent}
+        </div>
+    )
+
 }
 
 
