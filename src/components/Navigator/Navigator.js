@@ -4,6 +4,7 @@ import Homepage from '../../pages/homepage/Homepage';
 import NewBook from '../../pages/newbook/NewBook';
 import NewReaderFormik from '../../pages/newreaderformik/NewReaderFormik';
 import Readers from '../../pages/readers/Readers';
+import ItSpecialists from '../../pages/itspecialists/ItSpecialists';
 import AuxiliaryForRedux from "../AuxiliaryForRedux/AuxiliaryForRedux";
 import AuxiliaryForReduxThunk from "../AuxiliaryForReduxThunk/AuxiliaryForReduxThunk";
 
@@ -21,6 +22,7 @@ const Navigator = () => {
           <Route path='/newbook' element={<NewBook />} />
           <Route path='/newreader' element={<NewReaderFormik />} />
           <Route path='/readers' element={<Readers />} />
+          <Route path='/itspecialists' element={<ItSpecialists />} />
           <Route path='/workers' element={<AuxiliaryForRedux />} />
           <Route path='/followers' element={<AuxiliaryForReduxThunk />} />
           
